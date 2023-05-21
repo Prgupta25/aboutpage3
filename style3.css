@@ -2,17 +2,19 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+
 }
 
 
 .lg{
     height: 100%;
     width: 100%;
-    overflow-y: hidden;
     /* margin-top: 2px; */
     margin-bottom: -100px;
     margin-top: -80px;
-    overflow-x: hidden;
 }
 .line{
     position: absolute;
@@ -21,11 +23,12 @@
     overflow-x: hidden;
     overflow-y: hidden;
     overflow: hidden;
-    margin-top: 180px;
+    margin-top: 150px;
     margin-right: 100px;
     margin-bottom: auto;
 }
 .design {
+    margin-top: 5em;
     width: 783px;
     height: 169px;
 }
